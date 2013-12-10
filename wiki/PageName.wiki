@@ -13,3 +13,7 @@ SensorMonHTTP doesn't access any of the sensors in the machine directly. Instead
 SensorMonHTTP is a CLI program. It takes one parameter, --port (or -p). If the parameter is not provided, a default port of 55555 is assumed. The program first checks if GPU-Z is running in the background before proceeding with the starting of the web server on the requisite port.
 
 Accessing http://<IP of machine running SensorMonHTTP>:Port gives a nicely formatted JSON string with the various sensor names, values and units.
+
+= Thanks =
+
+SensorMonHTTP is built upon the code base provided by JohnnyUT in the GpuzDemo project hosted here: https://github.com/JohnnyUT/GpuzShMem/tree/master/GpuzDemo ; In addition, it also uses code from this StackOverflow thread: http://stackoverflow.com/questions/11784801/get-hardware-temp-from-openhardwaremonitor for accessing information through OpenHardwareMonitorLib.dll
