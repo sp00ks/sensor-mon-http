@@ -1,0 +1,1 @@
+This project utilizes GPU-Z's shared memory and OpenHardwareMonitor's data interface (DLL included) to create a mini-web server capable of providing sensor information in JSON format over the network.
